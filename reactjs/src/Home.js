@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
-import Sidebar from './Sidebar';
 import Chat from './Chat';
+import Sidebar from './Sidebar';
 
 function Home() {
   return (
