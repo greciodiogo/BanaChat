@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import Sidebar from './Sidebar';
-import Chat from './Chat';
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from './Home';
 import Login from './Login';
