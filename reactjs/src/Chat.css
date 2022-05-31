@@ -25,44 +25,31 @@
     color: gray;
 }
 
-.chat__message {
-    position: relative;
-    font-size: 16px;
-    padding: 10px;
-    background-color: #f4e6d0;
-    border-radius: 10px;
-    width: fit-content;
-    margin-bottom: 7px;
+.chat__headerInfo > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.chat__reciever {
-    margin-left: auto;
-    background-color: #ffd00e;
+.chat__headerInfo > p {
+    color: gray;
 }
 
-.chat__timestamp {
-    margin-left: 10px;
-    font-size: xx-small;
-}
-
-.chat__name {
-    position: absolute;
-    top: -15px;
-    font-size: xx-small;
-    font-weight: 800;
-}
 
 .chat__headerRight {
     display: flex;
     justify-content: space-between;
     min-width: 100px;
 }
+
 .chat__body {
     flex: 1;
     /* background-image: url('');
     background-repeat: no-repeat; */
     padding: 30px;
     background-position:center;
+    overflow: auto;
 }
 
 .chat__footer{
